@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Messages [
+        <!ELEMENT Messages (Message)*>
+        <!ELEMENT Message (Id|Text)*>
+        <!ELEMENT Id (#PCDATA)>
+        <!ELEMENT Text (#PCDATA)>
+        ]>
+
+<Messages>
+
+    <Message>
+        <Id>page.open</Id>
+        <Text>Open page '%s'</Text>
+    </Message>
+
+    <Message>
+        <Id>text.null</Id>
+        <Text>Text is null</Text>
+    </Message>
+
+    <Message>
+        <Id>text.enter</Id>
+        <Text>Text '%s' is enter to field '%s'</Text>
+    </Message>
+
+    <Message>
+        <Id>auth.fail</Id>
+        <Text>Auth is failed</Text>
+    </Message>
+
+    <Message>
+        <Id>element.click</Id>
+        <Text>Click on element '%s'</Text>
+    </Message>
+
+    <Message>
+        <Id>text.email.user.name</Id>
+        <Text>Verify success auth with email user name '%s'</Text>
+    </Message>
+
+    <Message>
+        <Id>text.email.field.verify.text</Id>
+        <Text>Verify '%s' text in filed '%s'</Text>
+    </Message>
+
+    <Message>
+        <Id>text.email.field.not.match</Id>
+        <Text>Verify success auth with email user name '%s'</Text>
+    </Message>
+</Messages>

@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+# Intellij
+.idea/
+.idea/compiler.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+*.iml
+*.iws
+CrystalInterview.iml
+
+# Maven
+log/
+target/

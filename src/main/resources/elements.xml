@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Elements [
+        <!ELEMENT Elements (Element)*>
+        <!ELEMENT Element (Id|Name|Path)*>
+        <!ELEMENT Id (#PCDATA)>
+        <!ELEMENT Name (#PCDATA)>
+        <!ELEMENT Path (#PCDATA)>
+        ]>
+<Elements>
+
+    <Element>
+        <Id>hp.input.login</Id>
+        <Name></Name>
+        <Path>//input[@name="login"]</Path>
+    </Element>
+
+    <Element>
+        <Id>hp.input.password</Id>
+        <Name></Name>
+        <Path>//input[@name="passwd"]</Path>
+    </Element>
+
+    <Element>
+        <Id>hp.button.login</Id>
+        <Name></Name>
+        <Path>//button[@class="button auth__button domik2__auth-button button_theme_bordergray button_size_m i-bem button_js_inited auth__button_color_yellow"]</Path>
+    </Element>
+
+    <Element>
+        <Id>hp.label.login.text</Id>
+        <Name></Name>
+        <Path>//div[@class="mail-User-Name"]</Path>
+    </Element>
+
+    <Element>
+        <Id>hp.input.search.email</Id>
+        <Name></Name>
+        <Path>//input[@class="js-search-input js-allow-shortcuts _nb-input-controller"]</Path>
+    </Element>
+
+    <Element>
+        <Id>hp.button.search.email</Id>
+        <Name></Name>
+        <Path>//*[@id="nb-4"]</Path>
+    </Element>
+
+    <Element>
+        <Id>hp.email.not.found</Id>
+        <Name>Не нашлось ни одного письма. Попробуйте сформулировать запрос иначе.</Name>
+        <Path>//div[@class="b-search-not-found__block b-search-not-found__block_title"]</Path>
+    </Element>
+
+    <Element>
+        <Id>hp.avatar.icon</Id>
+        <Name></Name>
+        <Path>//div[@class="mail-User-Picture js-user-picture"]</Path>
+    </Element>
+
+    <Element>
+        <Id>hp.user.menu.item.logout</Id>
+        <Name></Name>
+        <Path>(//div[@class="b-mail-dropdown__item"])[last()]</Path>
+    </Element>
+
+    <Element>
+        <Id>hp.mail.message.info</Id>
+        <Name></Name>
+        <Path>//div[@class='mail-MessagesInfo-Title']</Path>
+    </Element>
+
+    <Element>
+        <Id>hp.mail.sender</Id>
+        <Name></Name>
+        <Path>//div[@class="mail-Message-Sender"]/span</Path>
+    </Element>
+
+    <Element>
+        <Id>hp.mail.subject</Id>
+        <Name></Name>
+        <Path>//*[@class="mail-Message-Toolbar-Subject-Wrapper"]/div</Path>
+    </Element>
+
+    <Element>
+        <Id>hp.mail.content</Id>
+        <Name></Name>
+        <Path>//div[@class="mail-Message-Body-Content"]/div</Path>
+    </Element>
+</Elements>
